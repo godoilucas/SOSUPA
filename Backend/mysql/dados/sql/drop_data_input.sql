@@ -1,0 +1,2 @@
+USE SOSUPA;
+DROP TABLE data_input;

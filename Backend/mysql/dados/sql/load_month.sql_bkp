@@ -1,0 +1,12 @@
+USE SOSUPA;
+
+LOAD DATA INFILE '/var/lib/mysql-files/dados'
+INTO TABLE data_input 
+FIELDS TERMINATED BY ';' 
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
+
+SET SQL_SAFE_UPDATES = 0;
+#update data_input set dia_atendimento=str_to_date(data_atendimento,'%d/%m/%Y %T');
+#update data_input set data_nascimento_d=str_to_date(data_nascimento,'%d/%m/%Y %T');

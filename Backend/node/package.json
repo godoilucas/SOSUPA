@@ -1,0 +1,19 @@
+{
+  "name": "sosupa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bruno Oenning",
+  "license": "ISC",
+  "dependencies": {
+    "@google/maps": "^0.4.6",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "google": "^2.1.0",
+    "google-distance-matrix": "^1.1.1",
+    "mysql": "^2.15.0"
+  }
+}
